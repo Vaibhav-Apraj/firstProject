@@ -7,11 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title:any = 'firstProject';
+  vai:any = 'Vaibhav';
 
   ngOnInit(): void {
     //Called after the constructor, initializing input properties, and the first call to ngOnChanges.
     //Add 'implements OnInit' to the class.
-    console.log(this.title);
+    console.log(this.title,this.vai);
   }
 
 
